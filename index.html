@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="praying.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="nXOw3GM1s7Ns-TtgOpCie2lUj8qBc_WV6yWJ0OqEszg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#00c9ff" />
+  <meta name="link" content="Quran">
+  <meta name="title" content="Audio Quran">
+  <title>Reward for me and you + Quran Audio</title>
+</head>
+<body>
+  <h1>Reward for me and you  <i class="fa-solid fa-hand-holding-heart"></i></h1>
+  <div class="cos">
+    <h3>What should you do today to earn good deeds?</h3>
+    <h6>Click the button and take action</h6>
+  </div>
+  <button class="but" id="taskButton"><i class="fa-solid fa-bolt"></i> Get Today’s Mission</button>
+  <div class="progress-bar" id="progressBar"></div>
+  <div id="task" class="task-card"></div>
+  <div id="streak"></div>
+  <div id="countdown"></div>
+  <div id="lastTask" class="last-task"></div>
+  <div id="quranSection">
+    <h3>Select a Surah and Reciter</h3>
+      <select id="reciterSelect">
+        <option value="yasser_ad-dussary">Yasser Al-Dosari</option>
+        <option value="nasser_bin_ali_alqatami">Nasser Al-Qatami</option>
+        <option value="maher_almu3aiqly/year1440/">Maher Al-Muaiqly</option>
+        <option value="muhammad_alhaidan">Muhammad Al-haidan</option>
+        <option value="abdullaah_3awwaad_al-juhaynee">Abdullah Awad al-Juhani</option>
+    </select>
+    <select id="surahSelect"></select>
+    <div>
+      <button id="playButton"><i class="fa-solid fa-play"></i> Play Audio</button>
+      <button id="loopButton"><i class="fa-solid fa-repeat"></i> Loop: Off</button>
+    </div>
+    <audio id="audioPlayer" controls></audio>
+    <div id="quranText"></div>
+  </div>
+  <footer><p>May Allah reward you 🌙</p></footer>
+  <audio id="clickSound" preload="auto"></audio>
+  <script src="service-worker.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
