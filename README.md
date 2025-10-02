@@ -1,6 +1,6 @@
 <img src="imgs/mario.gif" alt="mario">
 <h1> Welcome to my project <img src="imgs/hello.gif" alt="img hand"></h1>
-Quran and Audio <img src="imgs/praying.png" style="height: 20;">
+Quran and Audio
 
 **A simple web page to listen to Quran recitations and receive daily good-deed missions.**
 
