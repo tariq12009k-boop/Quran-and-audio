@@ -1,0 +1,21 @@
+{
+  "name": "Reward",
+  "short_name": "Reward",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#33333300",
+  "theme_color": "#666",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "imgs/praying.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "imgs/praying.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
